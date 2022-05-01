@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Justin Tecson - About Me Page</title>
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <!-- CSS only -->
+	<link href="css/main.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body {
+    font-family: 'Lobster';font-size: 22px;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 auto;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+</style>
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+					navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Justin Tecson</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="academics.html">Academics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Me</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Navigate
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="projects.html">Projects</a>
+                                <a class="dropdown-item" href="photos.html">Photos</a>
+                                <a class="dropdown-item" href="resume.html">Resume</a>
+								<a class="dropdown-item" href="index.html">Home</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div class="toptext">
+        <h2>Welcome to the Academics Page!</h2>
+		<h4>Below are courses relating to my major and specialization</h4>
+    </div>
+</div>
+
+<footer class="footer">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Justin Tecson, 2022 |  <a href="terms.html">Terms of Use</a>
+			|  <a href="privacy.html">Privacy Statement</a></span>
+        </div>
+     </div>
+ </footer>
+</div>
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>IT120</h3>
+      <p>Intro to Networking Technology</p>
+      <p>Grade: A</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>IT230</h3>
+      <p>Intro to Computer Security</p>
+      <p>Grade: TBD</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>IT310</h3>
+      <p>E-Commerce Technology</p>
+      <p>Grade: TBD</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <h3>IT330</h3>
+      <p>Computer Forensic</p>
+      <p>Grade: Registered but not taken yet.</p>
+    </div>
+  </div>
+  <div class="container mt-3">
+				<h2></h2>
+				<div class="mt-4 p-5 bg-dark text-white rounded">
+					<h1>NJIT Information</h1> 
+					<ul>
+						<li>GPA: 3.6</li>
+						<li> Academic Standing: Good</li>
+						<li> Credit Level: Sophomore </li>
+						<li> Major: Information Technology</li>
+					</ul>
+				</div>
+			</div>
+</div>
+</body>
+</html>
